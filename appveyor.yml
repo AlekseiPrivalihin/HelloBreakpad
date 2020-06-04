@@ -2,5 +2,5 @@ install:
   - set QTDIR=C:\Qt\5.14.2\mingw73_64
   - set PATH=%PATH%;%QTDIR%\bin;C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\bin
 build_script:
-  - qmake DieAgain.pro -spec win32-gcc "CONFIG+=debug" "CONFIG+=qml_debug"
+  - qmake DieAgain.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
   - mingw32-make -j4
