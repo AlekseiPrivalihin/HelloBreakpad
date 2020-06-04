@@ -1,7 +1,7 @@
 install:
   - set QTDIR=C:\Qt\5.14.2\mingw73_64
-  - set PATH=C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\bin;%PATH%;%QTDIR%\bin;
-  - cd C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\bin
+  - set PATH=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\bin;%PATH%;%QTDIR%\bin;
+  - cd C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0
   - ls
 build_script:
   - g++ --version
